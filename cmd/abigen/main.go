@@ -14,6 +14,12 @@
 // You should have received a copy of the GNU General Public License
 // along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
 
+/**
+使用例子：
+solc --abi Storage.sol -o build（需要配合solc）
+abigen --abi Storage.abi --pkg main --type Storage --out Storage.go
+*/
+
 package main
 
 import (
